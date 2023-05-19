@@ -77,7 +77,7 @@
 }
 
 .box{
-    margin-left: 55px;
+    margin-right: 55px;
 }
 
 h2{
