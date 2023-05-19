@@ -8,7 +8,7 @@
     .containerMain{
         background-color: black;
         height: 135px;
-        padding: 0 250px;
+        padding: 0 310px;
         display: flex;
         align-items: center;
     }

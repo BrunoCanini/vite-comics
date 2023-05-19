@@ -37,16 +37,14 @@
 
 .containerBlue{
     width: 100%;
-    height: 155px;
     background-color: #0282f9;
-    padding: 0 250px;
+    padding: 50px 310px;
     display: flex;
     flex-wrap: wrap;
 }
 
 .box{
     width: calc(100% / 5);
-    height: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

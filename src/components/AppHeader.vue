@@ -21,7 +21,7 @@
 <style scoped>
     .containerHeader{
         max-width: 1900px;
-        padding: 0.5rem 250px;
+        padding: 0.5rem 310px;
         display: flex;
     }
 
