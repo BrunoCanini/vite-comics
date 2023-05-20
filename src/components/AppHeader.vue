@@ -20,9 +20,9 @@
 
 <style scoped>
     .containerHeader{
-        max-width: 1900px;
         padding: 0.5rem 310px;
         display: flex;
+        justify-content: space-between;
     }
 
     .logo{
@@ -36,14 +36,14 @@
     }
     
     .nav{
+        width: calc(100% - 90px);
         display: flex;
         align-items: center;
         justify-content: flex-end;
-        flex-grow: 1;
     }
 
     a{
-        margin: 0 0.8rem;
+        margin-left: 0.8rem;
         text-decoration: none;
         color: black;
     }
