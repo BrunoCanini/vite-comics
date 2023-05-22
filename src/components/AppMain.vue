@@ -10,7 +10,9 @@ export default {
 </script>
 
 <template>
-    <div class="containerSlaider"></div>
+    <div class="containerSlaider">
+        <button class="buttonCurrent">CURREN SERIES</button>
+    </div>
     <div class="containerBox">
         <div v-for="slide in slides" class="box">
             <div class="boxImg">
@@ -20,13 +22,19 @@ export default {
                 <h3> {{ slide.series }}</h3>
             </div>
         </div>
+        <div class="boxButton">
+            <button>LOAD MORE</button>
+        </div>
     </div>
+
 </template>
 
 <style scoped>
     .containerSlaider{
         background-color: black;
         height: 400px;
+        padding: 0 310px;
+        position: relative;
     }
 
     .containerBox{
@@ -34,6 +42,7 @@ export default {
         background-color: #1c1c1c;
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
     }
 
     .box{
@@ -55,6 +64,33 @@ export default {
     h3{
         padding-top: 1rem;
         color: white;
+    }
+
+    .containerSlaider{
+        background-image: url(/public/jumbotron.jpg);
+        background-size: cover;
+    }
+
+    .boxButton{
+        margin-top: 50px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    button{
+        width: 185px;
+        padding: 0.5rem;
+        border: none;
+        background-color: #0282f9;
+        color: white;
+    }
+
+    .buttonCurrent{
+        position: absolute;
+        bottom: -22px;
+        font-size: 1.5rem;
+        width: 250px;
     }
 
 
